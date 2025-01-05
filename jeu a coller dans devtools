@@ -1,0 +1,33 @@
+var hi = NaN
+hi = prompt("devine le nombre mystere.. ( tu a 5 essais si tu les utilises tous je te puni!) si tu arrive pas je te donne des indices!")
+if (hi == "10") {
+    alert("bravo tu a deviner!")
+} else {
+    alert("le nombre est entre 0 et 30")
+    hi = prompt("re essaye..")
+    if (hi == "10") {
+        alert("bravo tu a deviner du 2 eme coup!!")
+    } else {
+        alert("le nombre contient pas un 5")
+        hi = prompt("re essaye..")
+        if (hi == "10") {
+            alert("tu a deviner du 3 eme coup")
+        } else {
+            alert("le nombre est entre 0 et 15!")
+            hi = prompt("re essaye..")
+            if (hi == "10") {
+                alert("bon tu a deviner")
+            } else {
+                alert("dernier essai. le nombre est entre 10 et 15!")
+                hi = prompt("re essaye.. (aller tu va reussir!)")
+                if (hi == "10") {
+                    alert("tu a eu chaud! bravo!")
+                } else {
+                    alert("tu a perdu. le nombre etait 10! gg!")
+                    open("https://www.youtube.com/watch?v=xvFZjo5PgG0&embeds_referring_euri=https%3A%2F%2Fwww.bing.com%2F&embeds_referring_origin=https%3A%2F%2Fwww.bing.com&source_ve_path=Mjg2NjY&feature=emb_logo")
+close()
+                }
+            }
+        }
+    }
+}
