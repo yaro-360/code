@@ -24,7 +24,7 @@ if (hi == "10") {
                     alert("tu a eu chaud! bravo!")
                 } else {
                     alert("tu a perdu. le nombre etait 10! gg!")
-                    open("https://www.youtube.com/watch?v=xvFZjo5PgG0&embeds_referring_euri=https%3A%2F%2Fwww.bing.com%2F&embeds_referring_origin=https%3A%2F%2Fwww.bing.com&source_ve_path=Mjg2NjY&feature=emb_logo")
+                   
 close()
                 }
             }
